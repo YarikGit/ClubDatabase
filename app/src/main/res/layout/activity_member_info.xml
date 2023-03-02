@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="18dp"
+    tools:context=".MemberInfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:hint="Name"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Last Name"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/lastNameEditText"
+            android:layout_weight="2"
+            android:hint="Last Name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <Spinner
+            android:id="@+id/genderSpinner"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Sport"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/sportEditText"
+            android:layout_weight="2"
+            android:hint="Sport"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</LinearLayout>
